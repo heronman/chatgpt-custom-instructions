@@ -1,3 +1,10 @@
+## V4
+- Refined response guidelines to prioritize concise, exact answers over exhaustive explanations.
+- Added explicit internal checks for correctness, relevance, completeness, and unnecessary speculation.
+- Removed mandatory theatrical expert-role introduction; role labels are now optional and should be practical when useful.
+- Clarified that answers should address the exact user request without adding unsolicited assumptions, risks, recommendations, or broader context.
+- Updated response structure: TL;DR is skipped for rewriting tasks and short answers; step-by-step explanations are used only when needed or explicitly requested.
+
 ## V3
 - Updated to the latest GPT‑5 prompting guidance: the model is asked to quietly create role‑appropriate rubrics during thinking, then use them to drive the answer ([MagicPath guide](https://designs.magicpath.ai/v1/sturdy-valley-4825), [OpenAI GPT‑5 Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)).
 - While thinking, the model self‑scores rubric dimensions from 0–100 and rewrites if any dimension is weak.
